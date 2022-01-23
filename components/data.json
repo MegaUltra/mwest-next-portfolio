@@ -1,0 +1,35 @@
+{
+    "name":"Mikel-Jon (Mike) West",
+    "tagline": "Video Content Creator and IT Technician",
+    "location": "Seattle, WA",
+    "projects": [
+        {
+            "name": "Left for Dead",
+            "image": "placeholder",
+            "description": "Feature Film",
+            "link": "https://www.youtube.com/watch?v=8SB1WQQFSrQ&t=1s",
+            "tags": ["writer", "director", "video editor","graphic design"]
+        },
+        {
+            "name": "Mega Ultra Studios",
+            "image": "placeholder",
+            "description": "Video Editing and Distribution Company",
+            "link": "https://www.facebook.com/MegaUltraPro/",
+            "tags": ["distribution", "content creation"]
+        },
+        {
+            "name": "Laughter Medic Logo",
+            "image": "placeholder",
+            "description": "Logo for TikTok Channel",
+            "link": "https://www.tiktok.com/@laughtermedic?is_copy_url=1&is_from_webapp=v1",
+            "tags": ["graphic design"]
+        },
+        {
+            "name": "Topaz and Sapphires Official Trailer",
+            "image": "placeholder",
+            "description": "Book Trailer",
+            "link": "https://www.youtube.com/watch?v=YawTr08eHH0",
+            "tags": ["video editor", "graphic design"]
+        }
+    ]
+}
