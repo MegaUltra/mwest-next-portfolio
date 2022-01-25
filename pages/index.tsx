@@ -1,34 +1,44 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/header'
 import DemoReel from '../components/demo_reel'
-import ProjectList from '../components/project_list'
-import Layout from '../components/layout'
+import Header from '../components/header'
 
 
 const Home: NextPage = () => {
+
+// const projectMetadataArray = [];
+
+// projectMetadataArray.push(
+//   {
+//     title: "A Project by Mikel-Jon West",
+//     description: "Description of the project",
+//     linkUrl: "/test-project",
+//     image: "/images/projects-cover.jpg",
+//   }
+// );
+
+//   const projectPreviewElements = [];
+
+const title: string = "Mikel-Jon (Mike) West";
+const description: string = "Portfolio website for Mikel-JOn (Mike) West";
+const tagline: string = "Video Content Creator and IT Technician";
+const image: string = "/images/signature.png"
+const imageAlt: string = "Signature"
+
   return (
    
       <>
       <Head>
-      <title>Mikel-Jon (Mike) West</title>
-      <meta name="description" content="Portfolio for Mike West" />
+      <title>{title}</title>
+      <meta name="description" content={description} />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    
-          
-          <Layout>
-          
-        <div className='text-slate-700 flex flex-col gap-6'>
-          <Header />
-          <DemoReel />
-          <div>Signature</div>
-          <ProjectList />
-         
-        </div>
-      </Layout>
-      
+    <Header title={title} tagline={tagline} image={image} imageAlt={imageAlt}>
+    <DemoReel />
+      </Header> 
+    <div className='mt-4'>
+          {/* <ProjectPreview {...projectPreviewElements} /> */}
+          </div>     
       </>
   )
 }
